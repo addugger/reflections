@@ -25,3 +25,10 @@ A:	When trying out a new concept or fixing a bug.  I can freely
 	about the true program breaking.  This is especially useful
 	for "live" code that you can't risk breaking because end
 	users would be affected.
+
+Q:	How do the diagrams help you visualize the branch structure?
+A:	Git structures are just graphs with some rules, so drawing
+	out the logical graph with knowledge of those rules can help
+	you see what has access to what via the idea of "parents"
+	because the structure is very tree-like...but maybe not quite
+	a tree because of merges.
