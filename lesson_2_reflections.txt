@@ -32,3 +32,11 @@ A:	Git structures are just graphs with some rules, so drawing
 	you see what has access to what via the idea of "parents"
 	because the structure is very tree-like...but maybe not quite
 	a tree because of merges.
+
+Q:	What is the result of merging two branches together? Why do
+	we represent it in the diagram the way we do?
+A:	After merging two branches, the new tip has access to all
+	changes for each branch.  Keeping the lines separate in
+	the diagram helps keep it visually clear which commits
+	came from which branch and also helps visualize the
+	parents of each commit.
