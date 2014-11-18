@@ -40,3 +40,11 @@ A:	After merging two branches, the new tip has access to all
 	the diagram helps keep it visually clear which commits
 	came from which branch and also helps visualize the
 	parents of each commit.
+
+Q:	What are the pros and cons of Git’s automatic merging vs.
+	always doing merges manually?
+A:	Even if we had to do all merges manually, we'd have to
+	diff every file that has changed in both branches and
+	check for conflicts, then resolve conflicts.  Taking
+	out the conflict searching just makes things more
+	efficient.
