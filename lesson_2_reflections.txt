@@ -12,3 +12,8 @@ A:	The working directory is the actual directory where the files are
 	of a logical location via status for each file in your working
 	directory.  This allows each commit to contain only the adds/
 	modifications you want.
+
+Q:	How can you use the staging area to make sure you have one commit
+	per logical change?
+A:	Check the diff between the staging area and the previous commit
+	to make sure all the changes fit in one logical update.
