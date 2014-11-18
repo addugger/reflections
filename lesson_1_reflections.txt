@@ -1,0 +1,48 @@
+Q:	How did viewing a diff between two versions of a file help
+	you see the bug that was introduced?
+A:	Instead of checking every line against itself in the other 
+	file, you just have to check the lines that are different.
+
+Q:	How could having easy access to the entire history of a file
+	make you a more efficient programmer in the long term?
+A:	You can see what things you've already tried.  Or you can try
+	something new, but if it doesn't work out, revert to the
+	previous solution.  Or if you just to remember or answer a
+	question about what has changed and why, you can check the diff
+	between the current version and a previous version (though
+	hopefully you could just read the commit comments and get a good
+	idea).
+
+Q:	What do you think are the pros and cons of manually choosing when
+	to create a commit, like you do in Git, vs having versions
+	automatically saved, like Google docs does?
+A:	As mentioned in the videos, if you have to manually commit, you get
+	to logically organize the version history of your documents, but
+	you could also forget/get lazy and not commit often enough.
+
+Q:	Why do you think some version control systems, like Git, allow
+	saving multiple files in one commit, while others, like Google Docs,
+	treat each file separately?
+A:	Git was specifically created for versioning of entire projects while
+	Google Docs (or is it Google Drive now, I don't really understand the
+	distinction all the time any more) is more modeled after behaving like
+	a regular file system, where each file is saved and controlled
+	separately.
+
+Q:	How can you use the commands git log and git diff to view the history
+	of files?
+A:	Git log let's you quicky scan all the commits that have been made in
+	a repo, while diff allows you to view the specific changes between
+	different versions.
+
+Q:	How might using version control make you more confident to make changes
+	that could break something?
+A:	You always know you can go back if something breaks (though if you know
+	you might break something, you should really create a branch and test it
+	out).
+
+Q:	Now that you have your workspace set up, what do you want to try using Git
+	for?
+A:	I actually already use git for my personal development projects, so I will
+	continue to utilize it for my projects, as well as begin using it for udacity
+	projects.
