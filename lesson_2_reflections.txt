@@ -1,0 +1,14 @@
+Q:	What happens when you initialize a repository? Why do you need
+	to do it?
+A:	It creates the .git directory and intilizes some values and
+	configurations inside it.  This is where git will store files
+	as they initially appear in the repository as well as modifcations
+	for those files over time (commits).
+
+Q:	How is the staging area different from the working directory and
+	the repository? What value do you think it offers?
+A:	The working directory is the actual directory where the files are
+	located on your filesystem, while the staging directory is more
+	of a logical location via status for each file in your working
+	directory.  This allows each commit to contain only the adds/
+	modifications you want.
