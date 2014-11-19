@@ -1,1 +1,8 @@
- 
+Q:	When would you want to use a remote repository rather than
+	keeping all your work local?
+A:	I put my personal work on GitHub so that I can work on it from
+	anywhere (given I can set up some sort of dev environment).  It
+	is also useful to have your repo online, so others can access it
+	if they are also working on the project.  It's also important to
+	support open source development, so making your source available
+	to the public does that as well.
